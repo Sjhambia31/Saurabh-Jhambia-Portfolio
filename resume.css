@@ -1,0 +1,163 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+
+.nav {
+    margin-top: 5px;
+}
+
+.nav a {
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
+.section {
+    padding: 40px 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 10px;
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    background-color: #3498db;
+    border-radius: 50%;
+    display: inline-block;
+    color: white;
+    font-size: 60px;
+    line-height: 150px;
+    margin-bottom: 20px;
+}
+
+.edu-box {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.edu-box h3 {
+    margin-top: 0;
+    color: #3498db;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.project-box {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.project-box h3 {
+    margin-top: 0;
+    color: #3498db;
+}
+
+form {
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #17699f;
+}
+
+button:active{
+    background-color: #0b3a59;
+}
+
+@media (max-width: 800px) {
+    
+    .section
+     {
+        text-align: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+    }
+    
+    .nav {
+        font-size: x-small;
+    }
+    
+  }
+
+  @media (max-width: 650px) {
+    
+    .Header {
+        justify-content: center;
+    }
+    .section
+     {
+        text-align: center;
+    }
+    
+    .contact-item {
+        justify-content: center;
+    }
+    
+    .nav {
+        display: none;
+    }
+    
+  }
